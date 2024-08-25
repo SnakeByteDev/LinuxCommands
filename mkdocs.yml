@@ -1,0 +1,19 @@
+site_name: "Linux Commands"
+site_url: "https://SnakeByteDev.github.io/LinuxCommands/"
+theme:
+  name: "material"
+
+nav:
+  - Home: index.md
+  - Commands:
+      - File Management:
+          - ls: commands/file_management/ls.md
+          - pwd: commands/file_management/pwd.md
+          - cp: commands/file_management/cp.md
+
+markdown_extensions:
+  - toc:
+      permalink: True
+  - codehilite
+
+repo_url: "https://github.com/SnakeByteDev/LinuxCommands"
